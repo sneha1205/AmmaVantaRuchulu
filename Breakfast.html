@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breakfast Recipes</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      @media(min-width:750px) and (max-width:1700px){
+      .navbar{
+        background-color:Crimson;
+        color:white;
+        overflow:hidden;
+      }
+      h1{
+        margin:0px;
+        margin-top:10px;
+        margin-left:10px;
+      }
+    }
+
+      @media(max-width:750px){
+        .navbar{
+          background-color:Crimson;
+          color:white;
+          overflow:hidden;
+        }
+        h1{
+          margin:0px;
+          margin:10px;
+          //text-align:right;
+        }
+        body{
+          margin:0px;
+        }
+        /*grid container*/
+        .grid-container {
+          display: grid;
+          grid-template-columns: 100%;
+        }
+        .grid-item {
+          background-color: white;
+          border: 1px solid black;
+          font-size: 20px;
+          padding-top:10px;
+          height:200px;
+          text-align: center;
+        }
+        .grid-item:hover
+        {
+            background-color:black;
+            color:white;
+        }
+        .navbutton a{
+        //  height:100%;
+          text-decoration:none;
+          list-style-type:none;
+          color:white;
+          margin:20px;
+          overflow:hidden;
+          float:left;
+        }
+        .title{
+          float:left;
+          overflow:hidden;
+          margin-left:150px;
+          margin-top: 10px;
+        }
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="navbutton">
+        <a href="category.html"><i class="fa fa-arrow-left" style="font-size:40px"></i></a>
+      </div>
+      <div class="title"><h1>Breakfast Recipes</h1></div>
+    </div>
+    <div class="grid-container">
+     <a href="https://www.youtube.com/watch?v=JCVUhvUAdQg" style="text-decoration:none;color:black;">
+       <div class="grid-item"><img src="OatsDosa.jpg" style="width:50% ;height:90%;float:left;padding-left:10px;">
+         <div><h1 style="margin-top:20px;"><b>Oats Dosa</b></h1></div>
+         <hr style="width:170px;">
+         <h3>Healthy breakfast recipe please do try!</h3>
+       </div>
+     </a>
+
+    </div>
+
+
+  </body>
+</html>
